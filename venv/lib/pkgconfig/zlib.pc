@@ -1,0 +1,13 @@
+prefix=/Users/balakari/Documents/Docker image/venv
+exec_prefix=/Users/balakari/Documents/Docker image/venv
+libdir=/Users/balakari/Documents/Docker image/venv/lib
+sharedlibdir=/Users/balakari/Documents/Docker image/venv/lib
+includedir=/Users/balakari/Documents/Docker image/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
